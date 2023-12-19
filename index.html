@@ -9,29 +9,52 @@
      <style>
     body {background-color: Ivory};
      p {
-       
+       color: SlateGrey;
      }
-    navbar {
-      Display: flex;
-     background-color: IndianRed;
-      padding: 10px;
+<!--top navigation bar-->
+    .topnav {
+      overflow: hidden;
+      background-color: IndianRed;
     }
+
+    .topnav a{
+      float: left;
+      color: FireBrick;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover{
+      background-color: Crimson;
+    }
+    .topnav.a.active{
+      background-color: LightCoral;
+    }
+    
   </style>
   <title>News Article - DaiProject2023</title>
 </head>
   
 <body>
   <header>
-    <h1>IMMA TOUCH YOU JUSTIN </h1>
+    <h1>Testing </h1>
      <section id="main-content">
-       <img title="fax brotha" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaf3TywwFTd1fNq6RcuCacQZxkOldo9RHaHd14TcQ9rg&s" alt="can you blow my whistle baby" width="600" height="600">
+       
     </section>
-    <nav class="navbar">
-      <a href="BrokenPage">Home</a>
-      <a href= "BrokenPage">History</a>
-      <a href="BrokenPage">Politics</a>
-    <</nav>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#history">History</a>
+      <a href="#tech">Tech</a>
+      <a href="#finance">Finance</a>
+      <a href="#health">Health</a>
+    </div>
 
+    <div style="padding-left:16px">
+      <h2>facts brotha
+      </h2>
+      <p>PREACH
+      </p>
     <footer>
       <p>&copy; 2023 Crackhouse News LLC</p>
     </footer>
